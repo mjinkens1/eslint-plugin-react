@@ -1,0 +1,36 @@
+{
+  "name": "@itemizecorp/eslint-plugin-react",
+  "version": "0.0.0",
+  "description": "ESLint plugin for React & React Native projects at Itemize Corp",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Matt Jinkens",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "peerDependencies": {
+    "@itemizecorp/eslint-config": "github:mjinkens1/eslint-config",
+    "@react-native-community/eslint-config": "0.0.7",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-module-utils": "^2.5.2",
+    "eslint-plugin-flowtype": "^4.6.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jest": "^23.8.2",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react-hooks": "^2.5.0",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint": "^6.8.0",
+    "lodash": "^4.17.15",
+    "mocha": "^3.1.2"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "MIT"
+}
